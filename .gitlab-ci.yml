@@ -1,0 +1,5 @@
+include: 
+  - project: 'telecom-argentina/devops/cicd/templates'
+    ref: master
+    file:
+      - 'K8S-pipelines/kustomize/ci-ocp4.yml'
